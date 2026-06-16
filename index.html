@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Montes Cruz | Ingeniero Electromecánico & Full Stack Developer</title>
+    <meta name="description" content="Portfolio de Daniel Montes Cruz, Ingeniero Electromecánico y Full Stack Developer basado en Madrid.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">DMC<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about">Sobre mí</a>
+                <a href="#skills">Aptitudes</a>
+                <a href="#experience">Experiencia</a>
+                <a href="#education">Formación</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#contact" class="btn-nav">Contactar</a>
+            </div>
+            <button class="menu-btn" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container container">
+                <div class="hero-content reveal">
+                    <p class="greeting">Hola, soy</p>
+                    <h1 class="glitch" data-text="Daniel Montes Cruz">Daniel Montes Cruz</h1>
+                    <h2 class="subtitle">Ingeniero Electromecánico <span class="gradient-text">& Full Stack Developer</span></h2>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Madrid, España</p>
+                    <div class="hero-actions">
+                        <a href="#experience" class="btn btn-primary">Ver mis proyectos</a>
+                        <a href="CV_Daniel_Montes_Cruz.pdf" download="CV_Daniel_Montes_Cruz.pdf" class="btn btn-secondary" style="border-color: var(--accent-1); color: var(--text-primary);"><i class="fas fa-file-pdf" style="color: var(--accent-1);"></i> Descargar CV</a>
+                        <a href="#contact" class="btn btn-secondary">Hablar conmigo</a>
+                    </div>
+                    <div class="social-links hero-social">
+                        <a href="https://www.linkedin.com/in/daniel-montes-cruz" target="_blank" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/dmontescr" target="_blank" aria-label="GitHub" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="mailto:daniel.montes.cruz@gmail.com" aria-label="Email" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        <a href="https://discordapp.com/users/dmontescr" target="_blank" aria-label="Discord" class="social-icon" title="Discord: dmontescr"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <div class="image-wrapper glass-card">
+                        <img src="profile.jpg" alt="Foto de Daniel Montes Cruz">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Perfil Profesional</h2>
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p>Ingeniero con más de 10 años de trayectoria profesional liderando operaciones, optimización de procesos y estrategias de negocio en entornos multinacionales y tecnológicos. Especializado en la implementación de metodologías ágiles (Scrum Master), dirección de proyectos y reingeniería de flujos basados en datos.</p>
+                        <p>Actualmente enfocado en la ingeniería de software como Desarrollador Full Stack, fusionando una sólida disciplina técnica con el dominio de lenguajes de programación (Python, SQL) y arquitecturas modernas para construir soluciones de software eficientes, estructuradas y orientadas a la optimización del negocio.</p>
+                        
+                        <div class="stats-container">
+                            <div class="stat-item">
+                                <span class="stat-number">+10</span>
+                                <span class="stat-label">Años de experiencia profesional</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Pasión por aprender</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-cards reveal">
+                        <div class="glass-card">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h3>Metodologías Ágiles</h3>
+                                <p>Scrum Master y reingeniería de flujos basados en datos.</p>
+                            </div>
+                        </div>
+                        <div class="glass-card">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h3>Análisis de Datos</h3>
+                                <p>Dominio de arquitecturas y datos para optimización del negocio.</p>
+                            </div>
+                        </div>
+                        <div class="glass-card">
+                            <i class="fas fa-cogs"></i>
+                            <div>
+                                <h3>Desarrollo de Software</h3>
+                                <p>Soluciones eficientes y estructuradas con tecnologías modernas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Conocimientos Técnicos</h2>
+                <div class="skills-wrapper reveal">
+                    <div class="skill-category">
+                        <h3>Lenguajes & Backend</h3>
+                        <div class="tags">
+                            <span class="tag">Python (Avanzado)</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">C</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Desarrollo Web & Frontend</h3>
+                        <div class="tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3 (Selectores)</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tecnologías en Desarrollo Activo</h3>
+                        <div class="tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Astro</span>
+                            <span class="tag">Angular</span>
+                            <span class="tag">VueJS</span>
+                            <span class="tag">NodeJS</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Rust</span>
+                            <span class="tag">Go</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Metodologías, Agilidad & Gestión</h3>
+                        <div class="tags">
+                            <span class="tag">Scrum Master</span>
+                            <span class="tag">Agile</span>
+                            <span class="tag">Lean Startup</span>
+                            <span class="tag">Lean Six Sigma</span>
+                            <span class="tag">Principios SOLID</span>
+                            <span class="tag">Definición y Control de KPIs</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Sistemas, Datos & Herramientas</h3>
+                        <div class="tags">
+                            <span class="tag">Linux y la Terminal</span>
+                            <span class="tag">Git & GitHub</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">ERP SAP</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Ingeniería & Diseño Industrial</h3>
+                        <div class="tags">
+                            <span class="tag">SolidWorks</span>
+                            <span class="tag">AutoCAD</span>
+                            <span class="tag">Catia</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-wrapper reveal" style="margin-top: 2rem;">
+                    <div class="skill-category" style="grid-column: 1 / -1;">
+                        <h3>Idiomas</h3>
+                        <div class="language-bars" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                            <div class="lang-item">
+                                <span>Español (Competencia bilingüe o nativa)</span>
+                                <div class="progress-bar"><div class="progress" style="width: 100%;"></div></div>
+                            </div>
+                            <div class="lang-item">
+                                <span title="Fluidez profesional completa para lectura, escritura, comprensión y conversación técnica">Inglés (Nivel C1 acreditado)</span>
+                                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="lang-item">
+                                <span title="Nivel medio en lectura/comprensión; nivel principiante en escritura/conversación">Francés (Nivel B1 básico)</span>
+                                <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Experiencia Profesional</h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="date">Jul 2021 - Dic 2025</span>
+                            <h3>Coca-Cola Europacific Partners</h3>
+                            <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 0.95rem;">4 años y 6 meses en total</p>
+                            <div class="roles">
+                                <div class="role">
+                                    <h4>Trade Marketing Channel Executive</h4>
+                                    <span class="role-date">Feb 2024 - Dic 2025</span>
+                                    <ul style="padding-left: 1.2rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;">
+                                        <li>Responsable de la ejecución estratégica de planes comerciales en el Canal de Alimentación Moderna, desarrollando proyectos transversales de alto impacto para las marcas de cartera premium: Coca-Cola, Aquarius y Powerade.</li>
+                                    </ul>
+                                </div>
+                                <div class="role" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+                                    <h4>Home Market Customer Executive (Gestión de Grandes Cuentas)</h4>
+                                    <span class="role-date">Ago 2024 - Feb 2025</span>
+                                    <ul style="padding-left: 1.2rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;">
+                                        <li>Asumí de forma integral el desarrollo de los planes comerciales para clientes nacionales estratégicos de Alimentación Moderna, liderando la relación operativa con cuentas clave como Lidl, Aldi, DIA, Gadisa, Consum y Froiz.</li>
+                                    </ul>
+                                </div>
+                                <div class="role" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+                                    <h4>Trade Marketing Channel Executive – Área Centro y Sur</h4>
+                                    <span class="role-date">Jun 2023 - Ago 2024</span>
+                                    <ul style="padding-left: 1.2rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;">
+                                        <li>Dirección operativa de planes comerciales y de activación personalizados para clientes regionales del Canal de Alimentación Moderna.</li>
+                                    </ul>
+                                </div>
+                                <div class="role" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+                                    <h4>Customer & Channel Activation - Agile Resource Team</h4>
+                                    <span class="role-date">May 2022 - Jun 2023</span>
+                                    <ul style="padding-left: 1.2rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;">
+                                        <li>Lideré la transición operativa de la coordinación nacional de exhibidores de Cuartos de pallet desde el área de Supply Chain hacia el departamento Comercial, asignación otorgada tras un desempeño sobresaliente previo.</li>
+                                        <li>Introduje metodologías de trabajo ágiles (Agile) para la mejora y reingeniería de procesos internos, definiendo y controlando los nuevos cuadros de mando de KPIs.</li>
+                                        <li>Optimicé el trabajo en equipo, la fluidez del flujo de información y la comunicación técnica en toda la cadena logística.</li>
+                                        <li>Formé y capacité activamente a mis compañeros en el uso de los nuevos flujos ágiles y herramientas analíticas digitales.</li>
+                                    </ul>
+                                </div>
+                                <div class="role" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+                                    <h4>Commercialization & Innovation Project Manager</h4>
+                                    <span class="role-date">Jul 2021 - May 2022</span>
+                                    <ul style="padding-left: 1.2rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;">
+                                        <li>Dirección técnica y coordinación a nivel nacional de la operativa logística de exhibidores dentro de Supply Chain.</li>
+                                        <li>Gestión de proyectos de actualización de artes finales para embalajes primarios y secundarios, logrando una rápida adaptación ante directrices estacionales de marca o cambios legislativos.</li>
+                                        <li>Control operativo para la validación y homologación de nuevos materiales y envases en líneas de producción automatizadas.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="date">Jul 2020 - Jul 2021</span>
+                            <h3>Operation Manager</h3>
+                            <h4>ActivH₂O</h4>
+                            <ul style="padding-left: 1.2rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;">
+                                <li>Coordinación de equipos de instaladores técnicos en campo a nivel nacional.</li>
+                                <li>Liderazgo en la oficina técnica enfocada en el diseño analítico de proyectos integrales de tratamiento de aguas.</li>
+                                <li>Dirección y supervisión del desarrollo técnico, prototipado e ingeniería de nuevos equipos industriales mediante entornos CAD/CAE.</li>
+                                <li>Gestión de compras operativas, optimización de inventarios y captación de proveedores y partners internacionales.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="date">Oct 2018 - Mar 2020</span>
+                            <h3>Scrum Master</h3>
+                            <h4>Volvo Group España</h4>
+                            <ul style="padding-left: 1.2rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;">
+                                <li>Responsable de impulsar y coordinar la implementación práctica de metodologías ágiles (Agile/Scrum) y sus herramientas de gestión en los departamentos de la oficina central y talleres de la marca.</li>
+                                <li>Conceptualización, desarrollo y monitorización sistemática de indicadores de rendimiento (KPI) para el control diario de flujos de trabajo.</li>
+                                <li>Gestión proactiva del bloqueo de tareas (impedimentos), escalada de incidencias operativas y auditoría de planes de mejora continuos.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="date">Oct 2017 - Oct 2018</span>
+                            <h3>Technical Service Manager</h3>
+                            <h4>Refrival - Heineken España Group</h4>
+                            <ul style="padding-left: 1.2rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;">
+                                <li>Coordinación de brigadas de soporte técnico en campo, auditoría de calidad de infraestructuras y planificación de instalaciones de alta complejidad de fluidos.</li>
+                                <li>Soporte analítico de ingeniería de preventa técnica para la consecución de acuerdos del departamento Comercial.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="date">Jul 2015 - Oct 2017</span>
+                            <h3>Medical Engineer</h3>
+                            <h4>Dräger</h4>
+                            <ul style="padding-left: 1.2rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;">
+                                <li>Ingeniería de campo centrada en el mantenimiento preventivo, predictivo y correctivo de equipamiento electromédico crítico en entornos hospitalarios (sistemas de ventilación asistida, estaciones de anestesia y vaporizadores de gases quirúrgicos) aplicando metodologías Lean Six Sigma.</li>
+                                <li>Gestión documental técnica e ingeniería bajo rigurosas normativas internacionales de control sanitario.</li>
+                                <li>Resolución de incidencias técnicas en entornos hospitalarios y de atención al cliente de alta presión.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education section-padding" style="background: var(--bg-secondary);">
+            <div class="container">
+                <h2 class="section-title reveal">Formación Académica</h2>
+                <div class="edu-grid" style="margin-bottom: 4rem;">
+                    <div class="edu-card glass-card reveal">
+                        <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Máster en Desarrollo Full Stack</h3>
+                        <p class="institution">Conquer Blocks - Instituto Europeo de Alta Dirección</p>
+                        <span class="date">06/2025 - 12/2026</span>
+                    </div>
+
+                    <div class="edu-card glass-card reveal">
+                        <div class="edu-icon"><i class="fas fa-code"></i></div>
+                        <h3>Cursos de Especialización en Desarrollo de Software</h3>
+                        <p class="institution">MoureDev Pro</p>
+                        <span class="date">01/2026 - 12/2026</span>
+                    </div>
+                    
+                    <div class="edu-card glass-card reveal">
+                        <div class="edu-icon"><i class="fas fa-briefcase"></i></div>
+                        <h3>Máster en Administración y Dirección de Empresas - MBA</h3>
+                        <p class="institution">thePower</p>
+                        <span class="date">09/2024 - 06/2025</span>
+                    </div>
+
+                    <div class="edu-card glass-card reveal">
+                        <div class="edu-icon"><i class="fas fa-database"></i></div>
+                        <h3>Programa Data Science</h3>
+                        <p class="institution">thePower</p>
+                        <span class="date">09/2024 - 06/2025</span>
+                    </div>
+
+                    <div class="edu-card glass-card reveal">
+                        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Grado en Ingeniería Electromecánica (Especialidad Mecánica)</h3>
+                        <p class="institution">Universidad Pontificia Comillas - ICAI</p>
+                        <span class="date">2010 - 2015</span>
+                    </div>
+                </div>
+
+                <h2 class="section-title reveal" style="margin-top: 2rem;">Licencias y Certificaciones Técnicas</h2>
+                <div class="skills-wrapper reveal">
+                    <div class="skill-category" style="grid-column: 1 / -1; padding: 1.5rem 2rem;">
+                        <div class="tags" style="justify-content: center; gap: 1rem;">
+                            <span class="tag"><i class="fas fa-certificate" style="margin-right: 5px;"></i> Principios SOLID y acceso a Bases de datos (Conquer Blocks)</span>
+                            <span class="tag"><i class="fas fa-certificate" style="margin-right: 5px;"></i> Linux y la Terminal (Conquer Blocks)</span>
+                            <span class="tag"><i class="fas fa-certificate" style="margin-right: 5px;"></i> Git y GitHub (Conquer Blocks)</span>
+                            <span class="tag"><i class="fas fa-certificate" style="margin-right: 5px;"></i> Python Avanzado (Conquer Blocks)</span>
+                            <span class="tag"><i class="fas fa-certificate" style="margin-right: 5px;"></i> Python (Conquer Blocks)</span>
+                            <span class="tag"><i class="fas fa-certificate" style="margin-right: 5px;"></i> HTML & CSS Selectores (Conquer Blocks)</span>
+                            <span class="tag"><i class="fas fa-certificate" style="margin-right: 5px;"></i> Pseudocódigo (Conquer Blocks)</span>
+                            <span class="tag"><i class="fas fa-certificate" style="margin-right: 5px;"></i> Iniciación al Desarrollo con IA (Conquer Blocks) - 2028</span>
+                            <span class="tag"><i class="fas fa-certificate" style="margin-right: 5px;"></i> Introducción Data Analyst (Data Science For Business) - 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="education section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Desarrollo Personal & Ingeniería Aplicada</h2>
+                <div class="edu-grid">
+                    <div class="edu-card glass-card reveal">
+                        <div class="edu-icon"><i class="fas fa-cube"></i></div>
+                        <h3>Diseño, Prototipado y Fabricación Industrial</h3>
+                        <p class="institution" style="color: var(--text-secondary); line-height: 1.6;">Lideré de manera autónoma el modelado CAD mediante SolidWorks y prototipado rápido con impresión 3D de nuevos productos comerciales, coordinando directamente con proveedores de manufactura el escalado industrial del producto final.</p>
+                        <span class="date">07/2020 - 01/2023</span>
+                    </div>
+
+                    <div class="edu-card glass-card reveal">
+                        <div class="edu-icon"><i class="fas fa-heartbeat"></i></div>
+                        <h3>Proyecto de Impresión 3D Biomédica</h3>
+                        <p class="institution" style="color: var(--text-secondary); line-height: 1.6;">Colaboración técnica con la Universidad Pontificia Comillas (ICAI) en el diseño de entornos de manufactura aditiva para la creación de férulas y prótesis anatómicas a medida.</p>
+                        <span class="date">09/2017 - 06/2019</span>
+                    </div>
+                    
+                    <div class="edu-card glass-card reveal">
+                        <div class="edu-icon"><i class="fas fa-paw"></i></div>
+                        <h3>Voluntariado Social</h3>
+                        <p class="institution" style="color: var(--text-secondary); line-height: 1.6;">Miembro y colaborador operativo en labores de protección y rescate animal en la asociación Hoope (Torrejón de Ardoz, Madrid).</p>
+                        <span class="date">2015 - 2019</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section-padding" style="background: var(--bg-secondary);">
+            <div class="container reveal">
+                <div class="contact-box glass-card">
+                    <h2 class="section-title">¿Hablamos?</h2>
+                    <p class="contact-text">Estoy siempre abierto a discutir nuevos proyectos, oportunidades creativas y visiones innovadoras.</p>
+                    
+                    <div class="contact-methods">
+                        <a href="tel:683174299" class="contact-method">
+                            <div class="icon"><i class="fas fa-phone"></i></div>
+                            <div class="details">
+                                <span>Llamar</span>
+                                <strong>+34 683 17 42 99</strong>
+                            </div>
+                        </a>
+                        <a href="mailto:daniel.montes.cruz@gmail.com" class="contact-method">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <div class="details">
+                                <span>Email</span>
+                                <strong>daniel.montes.cruz@gmail.com</strong>
+                            </div>
+                        </a>
+                        <a href="CV_Daniel_Montes_Cruz.pdf" download="CV_Daniel_Montes_Cruz.pdf" class="contact-method" style="grid-column: 1 / -1; background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%); border: 1px solid rgba(59, 130, 246, 0.2);">
+                            <div class="icon" style="background: var(--accent-gradient); color: white; -webkit-text-fill-color: white;"><i class="fas fa-download"></i></div>
+                            <div class="details">
+                                <span>Curriculum Vitae</span>
+                                <strong style="color: var(--text-primary);">Descargar en PDF</strong>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="social-links large">
+                        <a href="https://www.linkedin.com/in/daniel-montes-cruz" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/dmontescr" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://discordapp.com/users/dmontescr" target="_blank" title="Discord: dmontescr" class="social-icon"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Daniel Montes Cruz. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
